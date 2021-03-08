@@ -52,4 +52,7 @@ const patientEntries: Patient[] = data.map(obj => {
 });
 
 
-export default patientEntries;
+export default {
+    data,
+    patientEntries
+};
